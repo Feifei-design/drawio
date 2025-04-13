@@ -1,0 +1,1758 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.12">
+  <diagram name="第 1 页" id="PLqywVX9QH87J28mb0Bo">
+    <mxGraphModel dx="948" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1GsPkApZrVQGiYAbX1QT-1" target="1GsPkApZrVQGiYAbX1QT-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="120" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1GsPkApZrVQGiYAbX1QT-2" target="1GsPkApZrVQGiYAbX1QT-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-2" value="takeOrgCities&lt;div&gt;初始化航线接口&lt;/div&gt;&lt;div&gt;(unused)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1GsPkApZrVQGiYAbX1QT-4" target="RHnl5UYBG4-GgrPMZ7Ze-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-4" value="通过‌DBConfigSetFactory工厂类获取数据库配置集DBConfigSet" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="RHnl5UYBG4-GgrPMZ7Ze-20" target="1GsPkApZrVQGiYAbX1QT-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="560" as="targetPoint" />
+            <mxPoint x="160" y="520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-10" value="城市为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1GsPkApZrVQGiYAbX1QT-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.2571" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="1GsPkApZrVQGiYAbX1QT-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="490" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-9" value="城市不为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1GsPkApZrVQGiYAbX1QT-15" vertex="1" connectable="0">
+          <mxGeometry x="-0.05" y="3" relative="1" as="geometry">
+            <mxPoint x="-8" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="1GsPkApZrVQGiYAbX1QT-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-13" value="返回空集合" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1GsPkApZrVQGiYAbX1QT-14" target="oGY2K9KOK-LN_mVlXmdj-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-14" value="获取JSON数组长度size" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1GsPkApZrVQGiYAbX1QT-17" target="1GsPkApZrVQGiYAbX1QT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-17" value="获取登录用户agentUser" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1GsPkApZrVQGiYAbX1QT-18" target="1GsPkApZrVQGiYAbX1QT-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-22" value="不包含实际文本内容" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1GsPkApZrVQGiYAbX1QT-21" vertex="1" connectable="0">
+          <mxGeometry x="0.2133" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-18" value="获取始发机场" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1GsPkApZrVQGiYAbX1QT-20" target="1GsPkApZrVQGiYAbX1QT-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-20" value="始发机场为用户离港城市" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1GsPkApZrVQGiYAbX1QT-23" target="1GsPkApZrVQGiYAbX1QT-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-23" value="获取始发城市对应代码" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1GsPkApZrVQGiYAbX1QT-25" target="oGY2K9KOK-LN_mVlXmdj-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="548" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-21" value="列表不为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oGY2K9KOK-LN_mVlXmdj-20" vertex="1" connectable="0">
+          <mxGeometry x="-0.1487" y="1" relative="1" as="geometry">
+            <mxPoint x="9" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-25" value="根据城市代码获取机场代码列表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="354" y="1030" width="116" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1GsPkApZrVQGiYAbX1QT-28" target="oGY2K9KOK-LN_mVlXmdj-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GsPkApZrVQGiYAbX1QT-28" value="searchDstCities&lt;div&gt;目的地城市查询&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-1" target="oGY2K9KOK-LN_mVlXmdj-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-1" value="初始化cityDTOs，长度为size" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-3" target="oGY2K9KOK-LN_mVlXmdj-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-3" value="遍历数组，将JSON数组city转化成AirportDTO对象的列表" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="585" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="687" />
+              <mxPoint x="260" y="687" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-7" value="返回列表" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-14" target="oGY2K9KOK-LN_mVlXmdj-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-14" value="获取第一个机场代码" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="600" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-22" target="oGY2K9KOK-LN_mVlXmdj-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-22" value="根据语言设置获取机场简名" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="800" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-24" target="oGY2K9KOK-LN_mVlXmdj-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-24" value="创建一个空的响应对象response" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-26" value="将始发机场，机场简名，国内城市，国内热门城市，国际热门城市设置到响应对象中并返回response" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="1030" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-28" target="RHnl5UYBG4-GgrPMZ7Ze-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-28" value="获取热门城市代码" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="870" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="oGY2K9KOK-LN_mVlXmdj-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1190" y="790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-47" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;如果热门城市列表不为空&lt;/span&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;，且国内/国际城市不为空&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" parent="oGY2K9KOK-LN_mVlXmdj-46" vertex="1" connectable="0">
+          <mxGeometry x="0.073" y="3" relative="1" as="geometry">
+            <mxPoint x="-13" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="RHnl5UYBG4-GgrPMZ7Ze-21" target="oGY2K9KOK-LN_mVlXmdj-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="950" />
+              <mxPoint x="1240" y="950" />
+            </Array>
+            <mxPoint x="1130" y="820" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-31" target="oGY2K9KOK-LN_mVlXmdj-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470" y="860" />
+              <mxPoint x="1295" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-31" value="遍历热门城市代码，筛选匹配的机场，若找到则加入热门城市列表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="760" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-37" target="oGY2K9KOK-LN_mVlXmdj-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-37" target="oGY2K9KOK-LN_mVlXmdj-91" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1580" y="950" />
+              <mxPoint x="1580" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-37" value="返回热门城市列表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="920" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-51" target="oGY2K9KOK-LN_mVlXmdj-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-55" value="筛选同为多段&lt;div&gt;的行程类型&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oGY2K9KOK-LN_mVlXmdj-54" vertex="1" connectable="0">
+          <mxGeometry x="-0.166" y="-1" relative="1" as="geometry">
+            <mxPoint x="13" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-51" value="将外部请求转化为内部业务对象rq&lt;div&gt;（机场代码，行程类型，国内/国际）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="165" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-53" target="oGY2K9KOK-LN_mVlXmdj-62" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-61" value="国际票订单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oGY2K9KOK-LN_mVlXmdj-58" vertex="1" connectable="0">
+          <mxGeometry x="-0.0058" y="3" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-53" value="设置航线类型为多段" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="780" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-62" value="设置rq国际订单为所有航线类型" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-66" target="oGY2K9KOK-LN_mVlXmdj-87" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-66" value="&lt;font style=&quot;color: rgb(126, 166, 224);&quot;&gt;parseCityDTOs&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;根据rs的目的地城市和语言设定，初始化一个目的地城市列表&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-87" target="oGY2K9KOK-LN_mVlXmdj-89" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-87" target="RHnl5UYBG4-GgrPMZ7Ze-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-87" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;对查询出来的机场按城市全拼进行排序&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-89" target="oGY2K9KOK-LN_mVlXmdj-91" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-89" value="创建一个空的响应对象response" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-91" value="设置response的&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font&gt;热门&lt;/font&gt;&lt;font&gt;城市列表&lt;/font&gt;&lt;/font&gt;和目的地城市列表并返回" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-94" value="根据城市名字的拼音对目的地城市排序" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-97" value="根据城市名字对目的地城市排序" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-99" target="RHnl5UYBG4-GgrPMZ7Ze-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1700" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-6" value="目的地城市为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RHnl5UYBG4-GgrPMZ7Ze-5" vertex="1" connectable="0">
+          <mxGeometry x="0.1667" relative="1" as="geometry">
+            <mxPoint y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-99" target="RHnl5UYBG4-GgrPMZ7Ze-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1900" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-9" value="目的地城市&lt;div&gt;不为空&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RHnl5UYBG4-GgrPMZ7Ze-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-99" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;拼音全拼排序&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1852.5" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="RHnl5UYBG4-GgrPMZ7Ze-15" target="RHnl5UYBG4-GgrPMZ7Ze-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1840" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-12" value="分割后size小于2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RHnl5UYBG4-GgrPMZ7Ze-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.1417" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="RHnl5UYBG4-GgrPMZ7Ze-15" target="RHnl5UYBG4-GgrPMZ7Ze-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1900" y="385" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="RHnl5UYBG4-GgrPMZ7Ze-10" target="oGY2K9KOK-LN_mVlXmdj-94" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-10" value="返回空" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RHnl5UYBG4-GgrPMZ7Ze-13" target="oGY2K9KOK-LN_mVlXmdj-94" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-13" value="返回strings的第二个元素" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1852.5" y="435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-15" value="按照“|”作为分隔符" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1845" y="325" width="135" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-20" value="&lt;div&gt;&lt;font style=&quot;color: rgb(126, 166, 224);&quot;&gt;parseCityDTOs&lt;/font&gt;&lt;/div&gt;从中调用城市数据" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-21" value="初始化一个&lt;div&gt;热门城市列表&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="760" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RHnl5UYBG4-GgrPMZ7Ze-24" target="oGY2K9KOK-LN_mVlXmdj-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-24" value="获取请求的语言类型" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-62" target="oGY2K9KOK-LN_mVlXmdj-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="230" as="sourcePoint" />
+            <mxPoint x="1070" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oGY2K9KOK-LN_mVlXmdj-70" target="RHnl5UYBG4-GgrPMZ7Ze-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGY2K9KOK-LN_mVlXmdj-70" value="根据rq查询目的地城市并将结果赋值给rs" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RHnl5UYBG4-GgrPMZ7Ze-31" target="oGY2K9KOK-LN_mVlXmdj-94" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-34" value="中文" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RHnl5UYBG4-GgrPMZ7Ze-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.0182" relative="1" as="geometry">
+            <mxPoint x="25" y="-29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="RHnl5UYBG4-GgrPMZ7Ze-31" target="oGY2K9KOK-LN_mVlXmdj-97" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-35" value="英文" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RHnl5UYBG4-GgrPMZ7Ze-33" vertex="1" connectable="0">
+          <mxGeometry x="0.025" y="-2" relative="1" as="geometry">
+            <mxPoint x="27" y="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHnl5UYBG4-GgrPMZ7Ze-31" value="根据语言类型" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="415" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-2" target="fCIqEXTZA1mqj5WIxNHt-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-2" value="初始化城市接口&lt;div&gt;(unused)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-3" target="fCIqEXTZA1mqj5WIxNHt-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-3" value="获取请求的语言类型，和登录用户，HttpSession对象" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1820" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-5" value="查询城市信息，返回查询结果" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2020" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-7" target="fCIqEXTZA1mqj5WIxNHt-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-7" value="航班查询变更提醒API&lt;div&gt;（unused）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-8" target="fCIqEXTZA1mqj5WIxNHt-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-8" value="获取请求和语言类型" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1820" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-10" target="fCIqEXTZA1mqj5WIxNHt-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-10" value="航班查询变更提醒查询" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2020" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-12" value="记录日志，返回请求" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2220" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-14" target="fCIqEXTZA1mqj5WIxNHt-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-14" value="国际av航班查询" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3810" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-15" target="fCIqEXTZA1mqj5WIxNHt-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-15" value="用户国际预定权限校验（是否销售国际航班）checkRights" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3810" y="1455" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="fCIqEXTZA1mqj5WIxNHt-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="950" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="fCIqEXTZA1mqj5WIxNHt-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="950" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-23" value="如果请求、始发城市&lt;div&gt;和目的地不为空&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-22" vertex="1" connectable="0">
+          <mxGeometry x="0.1397" relative="1" as="geometry">
+            <mxPoint x="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-19" target="fCIqEXTZA1mqj5WIxNHt-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-19" value="指定航线出发地和目的地" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1910" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-25" target="fCIqEXTZA1mqj5WIxNHt-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-25" value="遍历目的地城市列表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2110" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-27" target="fCIqEXTZA1mqj5WIxNHt-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-33" value="如果航线出发地/航线始发地不为空，出发地/始发地不为空&lt;div&gt;航线出发地/航线始发地包括出发地/始发地&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-32" vertex="1" connectable="0">
+          <mxGeometry x="0.1786" y="-5" relative="1" as="geometry">
+            <mxPoint x="35" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-27" value="如果出发地和目的地相同则抛出异常" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2310" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-28" target="fCIqEXTZA1mqj5WIxNHt-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-28" value="获取出发地和目的地，去除空白字符，转为大写字母" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2310" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-31" target="fCIqEXTZA1mqj5WIxNHt-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-31" value="设置指定航线购票提示信息（语言类型为空则默认中文）到响应对象中" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1820" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-34" target="fCIqEXTZA1mqj5WIxNHt-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-34" target="fCIqEXTZA1mqj5WIxNHt-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-34" value="创建一个空的响应对象response" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1590" y="900" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-36" value="返回响应对象" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1605" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-40" target="fCIqEXTZA1mqj5WIxNHt-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-40" value="检查大客户编码" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3810" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-42" target="fCIqEXTZA1mqj5WIxNHt-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-42" value="行程类型检查&lt;div&gt;（单程校验、往返校验）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3810" y="1645" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-44" target="fCIqEXTZA1mqj5WIxNHt-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-44" value="航段检查" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3810" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-46" target="fCIqEXTZA1mqj5WIxNHt-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-46" value="获取第一个航段" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3650" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-47" target="fCIqEXTZA1mqj5WIxNHt-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-47" value="航段模式开启时，做航段校验" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3650" y="1655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-49" target="fCIqEXTZA1mqj5WIxNHt-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-49" value="验证是否包含国际航段" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3650" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-53" target="fCIqEXTZA1mqj5WIxNHt-55" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-53" value="初始化一个航班起讫信息列表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3985.5" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-55" target="fCIqEXTZA1mqj5WIxNHt-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-55" value="创建一个av查询信息结果对象和航班av查询指令响应" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4174.5" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-57" target="fCIqEXTZA1mqj5WIxNHt-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-57" value="遍历出发地和目的地" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4374.5" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-59" target="fCIqEXTZA1mqj5WIxNHt-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-59" value="创建航班搜索请求&lt;div&gt;buildFlightSearchReq&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4574.5" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-61" target="fCIqEXTZA1mqj5WIxNHt-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-61" value="判断是否能进行集团互售" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4574.5" y="1395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-62" target="fCIqEXTZA1mqj5WIxNHt-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-62" value="是否能iet销售&lt;div&gt;canIetSale&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4574.5" y="1515" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-65" target="fCIqEXTZA1mqj5WIxNHt-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-65" value="是否是联程航班" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4574.5" y="1635" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-68" target="fCIqEXTZA1mqj5WIxNHt-70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-68" value="创建航班搜索请求响应数据flightSearchResp" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4774.5" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-70" target="fCIqEXTZA1mqj5WIxNHt-72" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-70" value="若响应不成功，则抛出异常" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4940" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-72" target="LrkR_C3SJFAWT6VeDMVh-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-72" value="重置航班搜索请求响应数据的Rph" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="5110" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-74" target="fCIqEXTZA1mqj5WIxNHt-75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-74" value="国内航班查询" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2481" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-173" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-75" target="fCIqEXTZA1mqj5WIxNHt-172" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-75" value="查询航班前检查" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2681" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-256" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-77" target="fCIqEXTZA1mqj5WIxNHt-255" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-77" value="国内航班的预定权限校验&lt;div&gt;checkRights&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2681" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-78" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3110" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-78" target="fCIqEXTZA1mqj5WIxNHt-77" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-78" value="判断是否为海外代理人&lt;div&gt;hasRightDomain&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2910" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-84" target="fCIqEXTZA1mqj5WIxNHt-81" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3230" y="1380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-83" value="若OfficeType为2或6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-82" vertex="1" connectable="0">
+          <mxGeometry x="0.1348" y="-2" relative="1" as="geometry">
+            <mxPoint x="-11" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-81" value="该用户为海外代理人，不具备国内票预定权限" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3390" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-84" target="fCIqEXTZA1mqj5WIxNHt-85" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-84" value="遍历代理人类型" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3110" y="1340" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-85" target="fCIqEXTZA1mqj5WIxNHt-87" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-85" value="该用户非海外代理人" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3115" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-87" value="checkOfficeRight&lt;div&gt;判断代理人层级类型&lt;/div&gt;&lt;div&gt;（空位父代理，1子代理）&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3315" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-92" target="fCIqEXTZA1mqj5WIxNHt-116" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-92" value="检查大客户编码&lt;div&gt;checkVipC0de&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2681" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-97" target="fCIqEXTZA1mqj5WIxNHt-98" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-97" target="fCIqEXTZA1mqj5WIxNHt-101" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-103" value="编码为空或&lt;div&gt;编码长度大于20&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-102" vertex="1" connectable="0">
+          <mxGeometry x="-0.2863" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-97" target="fCIqEXTZA1mqj5WIxNHt-92" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-97" target="fCIqEXTZA1mqj5WIxNHt-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-97" value="大客户编码格式校验&lt;div&gt;checkVipCode&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2993.25" y="1080" width="149" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-98" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3436.75" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-98" value="返回true" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3236.75" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-101" target="fCIqEXTZA1mqj5WIxNHt-104" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-101" value="返回false" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3007.75" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-104" value="打印日志运行失败&lt;div&gt;抛出异常&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3207.75" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-108" target="fCIqEXTZA1mqj5WIxNHt-109" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-111" value="不能" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-110" vertex="1" connectable="0">
+          <mxGeometry x="-0.1628" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-108" target="fCIqEXTZA1mqj5WIxNHt-112" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-114" value="能" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-113" vertex="1" connectable="0">
+          <mxGeometry x="-0.1643" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-108" value="检查是否支持&lt;div&gt;大客户编码销售&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3435" y="1080" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-109" value="设置大客户编码为空到响应对象中" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3717.5" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-112" value="获取大客户编码并转为大写至响应对象中" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3462.5" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-162" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-116" target="fCIqEXTZA1mqj5WIxNHt-161" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-116" value="多段限制&lt;div&gt;checkMultistage&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2681" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-118" target="fCIqEXTZA1mqj5WIxNHt-116" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-118" target="fCIqEXTZA1mqj5WIxNHt-125" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-118" value="多段航段起始地限制&lt;div&gt;checkAdjoinSegmentSameOrigin&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2980" y="795" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-119" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2800" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2980" y="930" />
+              <mxPoint x="2890" y="930" />
+              <mxPoint x="2890" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-119" target="fCIqEXTZA1mqj5WIxNHt-130" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-119" value="多段航段数限制&lt;div&gt;checkLimitMaxSegment&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2980" y="905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-122" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3470" y="825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-122" value="遍历起始地和目的地" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3300" y="795" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-140" target="fCIqEXTZA1mqj5WIxNHt-128" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3590" y="825" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-141" value="若当前航程前一段、&lt;div&gt;当前航程出发地代码为空，&lt;div&gt;或两个出发地代码相等&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-129" vertex="1" connectable="0">
+          <mxGeometry x="-0.1473" y="4" relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-125" target="fCIqEXTZA1mqj5WIxNHt-122" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-125" value="若多个相邻的航段允许具有相同或相似属性‌则返回" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3140" y="795" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-128" value="抛出异常" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3830" y="795" width="110" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-130" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3380" y="935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-130" value="设信息航段数为0" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3180" y="905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-136" target="fCIqEXTZA1mqj5WIxNHt-134" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3500" y="935" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-137" value="若当前航程前一段目的地&lt;div&gt;不等于当前航程始发地，&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-135" vertex="1" connectable="0">
+          <mxGeometry x="-0.1891" y="-3" relative="1" as="geometry">
+            <mxPoint x="14" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-134" target="fCIqEXTZA1mqj5WIxNHt-142" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-134" target="fCIqEXTZA1mqj5WIxNHt-136" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-134" value="信息航段数+1" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3710" y="905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-136" value="获取当前航程前一段&lt;div&gt;和当前航程&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3376.75" y="890" width="143.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-140" value="获取当前航程前一段&lt;div&gt;和当前航程&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3470.88" y="780" width="143.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-142" target="fCIqEXTZA1mqj5WIxNHt-146" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-142" value="得到信息航段数" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3857.5" y="905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-146" target="fCIqEXTZA1mqj5WIxNHt-148" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-152" value="有限制" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-149" vertex="1" connectable="0">
+          <mxGeometry x="-0.0858" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-146" value="从数据库中获取配置的多段限制段数" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4009.5" y="905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-148" target="fCIqEXTZA1mqj5WIxNHt-153" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-148" value="添加信息航段数&lt;div&gt;用&quot;|&quot;隔开&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4209.5" y="905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-153" target="fCIqEXTZA1mqj5WIxNHt-155" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-153" value="创建包含信息航段的布尔值" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4359.5" y="905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-158" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-155" target="fCIqEXTZA1mqj5WIxNHt-157" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-159" value="如果包含信息航段，&lt;div&gt;且当前航段大于限制航段&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-158" vertex="1" connectable="0">
+          <mxGeometry x="-0.1544" y="2" relative="1" as="geometry">
+            <mxPoint x="14" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-155" value="获取限制条数" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4509.5" y="905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-157" value="抛出异常" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4809.5" y="905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-166" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-161" target="fCIqEXTZA1mqj5WIxNHt-165" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-161" value="行程类型检查&lt;div&gt;checkJourneyType&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2681" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-165" target="fCIqEXTZA1mqj5WIxNHt-75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-165" value="品牌运价检查&lt;div&gt;checkFareFamily&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2681" y="645" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-169" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-168" target="fCIqEXTZA1mqj5WIxNHt-165" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-171" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-168" target="fCIqEXTZA1mqj5WIxNHt-170" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-168" value="若航司暂不支持品牌运价查询" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2850" y="645" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-170" value="抛出异常" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3020" y="645" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-175" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-172" target="fCIqEXTZA1mqj5WIxNHt-174" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-172" value="初始化一个始发地和目的地航班列表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2881" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-177" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-174" target="fCIqEXTZA1mqj5WIxNHt-176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-180" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-177" vertex="1" connectable="0">
+          <mxGeometry x="-0.1451" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-179" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-174" target="fCIqEXTZA1mqj5WIxNHt-178" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-181" value="非品牌" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-179" vertex="1" connectable="0">
+          <mxGeometry x="0.0308" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-174" value="是否是品牌运价&lt;div&gt;查询模式&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3051" y="530" width="129" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-183" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-176" target="fCIqEXTZA1mqj5WIxNHt-182" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-176" value="构建散客航班&lt;div&gt;查询请求rq&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3240" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-211" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-178" target="fCIqEXTZA1mqj5WIxNHt-210" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-178" value="将每一出发到达行程当做单程来查询" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3240" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-200" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-182" target="fCIqEXTZA1mqj5WIxNHt-199" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-182" value="获取cde国内航班&lt;div&gt;查询API&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3400" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-184" target="fCIqEXTZA1mqj5WIxNHt-189" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-184" value="如果大客户编码不为空，则设置大客户编码给查询对象" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3240" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-185" target="fCIqEXTZA1mqj5WIxNHt-184" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-185" value="创建一个散客查询对象" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3240" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-189" target="fCIqEXTZA1mqj5WIxNHt-194" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-189" value="如果查询类型不为空，则设置查询类型给查询对象" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3240" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-194" target="fCIqEXTZA1mqj5WIxNHt-176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-194" value="返回散客查询对象" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3240" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-202" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-199" target="fCIqEXTZA1mqj5WIxNHt-201" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-199" value="获取查询结果并放入Session中" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3560" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-201" value="返回散客航班查询结果" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3760" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-205" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-203" target="fCIqEXTZA1mqj5WIxNHt-204" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-203" value="若error不为空，则抛出异常" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3760" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-208" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-204" target="fCIqEXTZA1mqj5WIxNHt-207" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-204" value="创建originDestinationFlightsDTOS" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3735" y="260" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-209" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-207" target="fCIqEXTZA1mqj5WIxNHt-201" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-207" value="遍历添加代理人用户，和航班信息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3760" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-215" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-210" target="fCIqEXTZA1mqj5WIxNHt-214" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-210" value="构建每一段请求" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3400" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-218" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-212" target="fCIqEXTZA1mqj5WIxNHt-217" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-212" value="设置集团互售权限&lt;div&gt;和大客户编码等&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3730" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-216" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-214" target="fCIqEXTZA1mqj5WIxNHt-212" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-214" value="fareCode不为空，则使用fareCode查询价格" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3570" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-220" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-217" target="fCIqEXTZA1mqj5WIxNHt-219" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-217" value="设置语言" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3880" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-219" target="fCIqEXTZA1mqj5WIxNHt-225" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-219" value="航班接口查询" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4030" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-227" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-225" target="fCIqEXTZA1mqj5WIxNHt-226" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-225" value="构建每一段行程后的查询信息&lt;div&gt;返回OriginDestinationFlightsDTO&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4200" y="610" width="160.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-239" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-226" target="fCIqEXTZA1mqj5WIxNHt-238" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-226" value="构建出发到达行程" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4220.25" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-232" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-228" target="fCIqEXTZA1mqj5WIxNHt-231" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-228" value="传入列表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4220.25" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-234" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-231" target="fCIqEXTZA1mqj5WIxNHt-233" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-231" value="设置行程类型" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4054.5" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-233" value="将查询结果放入session中" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4054.5" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-238" target="fCIqEXTZA1mqj5WIxNHt-228" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-238" value="转化航班信息&lt;div&gt;convertFlightsSupportFareFamily&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4420.25" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-243" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-241" target="fCIqEXTZA1mqj5WIxNHt-242" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-241" target="fCIqEXTZA1mqj5WIxNHt-238" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-241" value="初始化一个flightDTOS列表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4600" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-245" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-242" target="fCIqEXTZA1mqj5WIxNHt-244" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-242" value="获取本航直达航班&lt;div&gt;directFlights&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4750" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-247" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-244" target="fCIqEXTZA1mqj5WIxNHt-246" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-244" value="获取本航联程航班&lt;div&gt;interFlights&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4894.5" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-249" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-246" target="fCIqEXTZA1mqj5WIxNHt-248" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-246" value="获取集团直达航班&lt;div&gt;groupDirectFlights&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="5040" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-251" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-248" target="fCIqEXTZA1mqj5WIxNHt-250" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-248" value="获取集团联程航班&lt;div&gt;groupInterFlights&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="5180" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-253" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-250" target="fCIqEXTZA1mqj5WIxNHt-252" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-250" value="获取iet航班&lt;div&gt;ietFlights&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="5320" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-252" value="返回flightDTOS列表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="5470" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-257" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-255" target="fCIqEXTZA1mqj5WIxNHt-92" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-255" value="暂不支持海外代理人销售国内票&lt;div&gt;checkAgentUser&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2681" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-260" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-259" target="fCIqEXTZA1mqj5WIxNHt-238" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-259" value="航班不为空则返回遍历添加的flightDTOS，否则返回初始化列表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4420.25" y="610" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-262" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-261" target="fCIqEXTZA1mqj5WIxNHt-225" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-264" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-261" target="fCIqEXTZA1mqj5WIxNHt-263" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-261" value="构建航班信息&lt;div&gt;buildFlights&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4220.25" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-266" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-263" target="fCIqEXTZA1mqj5WIxNHt-265" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-263" value="往返国内航班查询不成功则抛出异常" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4374.5" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-302" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-265" target="fCIqEXTZA1mqj5WIxNHt-292" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-265" value="返回遍历添加的flightDTOS列表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4540.25" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-273" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-267" target="fCIqEXTZA1mqj5WIxNHt-272" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-290" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-267" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4730" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-267" value="转化航班信息&lt;div&gt;convertFlightsSupportFareFamily&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4750" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-268" value="返回初始化列表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="5094.5" y="380" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-274" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-272" target="fCIqEXTZA1mqj5WIxNHt-268" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-275" value="为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-274" vertex="1" connectable="0">
+          <mxGeometry x="-0.1292" y="3" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-277" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-272" target="fCIqEXTZA1mqj5WIxNHt-276" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-278" value="不为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-277" vertex="1" connectable="0">
+          <mxGeometry x="-0.1874" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-272" value="航班是否为空" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4915" y="375" width="99.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-280" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-276" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5104.75" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-276" value="转化航段信息&lt;div&gt;convertFlightsSegments&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4904.75" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-281" value="返回遍历添加的flightDTOS列表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5256" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-284" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-282" target="fCIqEXTZA1mqj5WIxNHt-283" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-285" value="为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-284" vertex="1" connectable="0">
+          <mxGeometry x="-0.0748" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-287" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-282" target="fCIqEXTZA1mqj5WIxNHt-286" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-288" value="不为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-287" vertex="1" connectable="0">
+          <mxGeometry x="-0.0847" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-282" value="航段是否为空" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5100" y="215" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-283" value="返回初始化列表" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5285" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-289" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-286" target="fCIqEXTZA1mqj5WIxNHt-281" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-286" value="布尔值是否支持行李和座位" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5095" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-291" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-292" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4904.38" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-292" value="构建航段信息&lt;div&gt;buildFlightsSegments&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4704.38" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-293" value="返回遍历添加的flightDTOS列表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5055.63" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-294" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-298" target="fCIqEXTZA1mqj5WIxNHt-299" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-295" value="为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-294" vertex="1" connectable="0">
+          <mxGeometry x="-0.0748" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-296" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-298" target="fCIqEXTZA1mqj5WIxNHt-301" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-297" value="不为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-296" vertex="1" connectable="0">
+          <mxGeometry x="-0.0847" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-298" value="航段是否为空" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4899.63" y="790" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-299" value="返回初始化列表" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5084.63" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-300" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-301" target="fCIqEXTZA1mqj5WIxNHt-293" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-301" value="布尔值是否支持行李和座位" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4894.63" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-307" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-306" target="fCIqEXTZA1mqj5WIxNHt-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-306" value="如果销售国际航班且用户、OFFICE号、始发地都有国际权限则返回，否则抛出异常" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3650" y="1452.5" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-312" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-308" target="fCIqEXTZA1mqj5WIxNHt-311" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-333" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-308" target="fCIqEXTZA1mqj5WIxNHt-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-308" value="验证航段信息&lt;div&gt;&lt;font style=&quot;color: rgb(126, 166, 224);&quot;&gt;checkSegments&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2995" y="1655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-314" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-311" target="fCIqEXTZA1mqj5WIxNHt-313" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-315" value="国内" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-314" vertex="1" connectable="0">
+          <mxGeometry x="-0.1221" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-317" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-311" target="fCIqEXTZA1mqj5WIxNHt-316" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-318" value="国际" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-317" vertex="1" connectable="0">
+          <mxGeometry x="-0.1019" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-311" value="国内还是&lt;div&gt;国际航线&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3002.5" y="1770" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-322" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-313" target="fCIqEXTZA1mqj5WIxNHt-321" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-313" value="获取到达机场和起飞机场三字码" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2995" y="1880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-320" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-316" target="fCIqEXTZA1mqj5WIxNHt-319" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-316" value="获取到达机场和起飞机场三字码" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3180" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-329" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-319" target="fCIqEXTZA1mqj5WIxNHt-325" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-319" value="如果三字码都为国内，则给errCode赋值" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3342.5" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-326" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-321" target="fCIqEXTZA1mqj5WIxNHt-325" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-321" value="如果三字码有一个是国内，则给errCode赋值" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3142.25" y="1880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-328" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-325" target="fCIqEXTZA1mqj5WIxNHt-327" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-325" value="返回errCode" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3300" y="1880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-331" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-327" target="fCIqEXTZA1mqj5WIxNHt-330" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-332" value="为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fCIqEXTZA1mqj5WIxNHt-331" vertex="1" connectable="0">
+          <mxGeometry x="-0.129" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-327" value="判断errCode&lt;div&gt;是否为空&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3480" y="1870" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-330" value="抛出异常" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3480" y="2000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-336" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-334" target="fCIqEXTZA1mqj5WIxNHt-335" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-337" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-334" target="fCIqEXTZA1mqj5WIxNHt-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-334" value="获取到达机场和起飞机场三字码" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3650" y="1860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-335" value="如果都为国内航段则抛出异常" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3810" y="1860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-339" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fCIqEXTZA1mqj5WIxNHt-338" target="fCIqEXTZA1mqj5WIxNHt-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCIqEXTZA1mqj5WIxNHt-338" value="用户权限判断、OFFICE权限判断、department权限判断" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4760" y="1515" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-2" target="fCIqEXTZA1mqj5WIxNHt-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-2" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="3830" y="1240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-4" target="fCIqEXTZA1mqj5WIxNHt-74" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-4" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="2340" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-6" target="LrkR_C3SJFAWT6VeDMVh-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-6" value="添加始发地和目的地的Rph和航班搜索响应请求键值对" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="5270" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-8" target="LrkR_C3SJFAWT6VeDMVh-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-8" value="创建一个数据传输对象OriginDestinationFlightsDTO" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="5430" y="1750" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-10" target="BteyizKaQL2jbsLEFC8R-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-10" value="在DTO中设置始发地和目的地、返程和用户信息" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="5650" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-12" target="LrkR_C3SJFAWT6VeDMVh-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-12" value="向航班起讫信息列表中添加DTO对象" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="7310" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-14" target="BteyizKaQL2jbsLEFC8R-55" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-14" value="将查询结果放入session中&lt;div&gt;addToSession&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="7470" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-16" target="LrkR_C3SJFAWT6VeDMVh-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-16" value="国际shopping航班查询" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4180" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-17" target="LrkR_C3SJFAWT6VeDMVh-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-17" value="用户国际预订权限校验&lt;div&gt;check&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4380" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-19" target="LrkR_C3SJFAWT6VeDMVh-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-19" value="如果销售国际航班且用户、OFFICE号、始发地都有国际权限则返回，否则抛出异常" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4380" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-21" target="LrkR_C3SJFAWT6VeDMVh-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-21" value="获取行程类型" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4380" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-23" target="LrkR_C3SJFAWT6VeDMVh-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-23" value="检查往返行程信息是否正确" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4380" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-25" target="LrkR_C3SJFAWT6VeDMVh-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-25" value="如果始发地和目的地size不等于航段数，抛出异常" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4070" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-26" target="LrkR_C3SJFAWT6VeDMVh-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-26" value="如果前段目的地不等于后段始发地，或者前端始发地等于后段目的地，则抛出异常" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4230" y="1255" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-29" value="返回AvInternationalFlightResponse()" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="7810" y="1750" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-31" target="LrkR_C3SJFAWT6VeDMVh-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-31" value="航点模式开启时，做航段校验-RT" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4380" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4100" y="1199.1538461538462" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-34" value="获取行程信息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3960" y="1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-35" target="LrkR_C3SJFAWT6VeDMVh-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-35" value="&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;验证航段信息&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;color: rgb(126, 166, 224);&quot;&gt;checkSegment&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4100.25" y="1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-38" target="LrkR_C3SJFAWT6VeDMVh-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-38" value="如果errorCode不为0，则抛出异常" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4239.5" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-42" target="LrkR_C3SJFAWT6VeDMVh-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-42" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="4055" y="1060" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-44" target="LrkR_C3SJFAWT6VeDMVh-55" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-44" value="国际航班查询请求&lt;div&gt;buildRequest&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4549" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-46" target="LrkR_C3SJFAWT6VeDMVh-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-46" target="LrkR_C3SJFAWT6VeDMVh-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-46" value="获取第一段行程" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4549" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-48" target="LrkR_C3SJFAWT6VeDMVh-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-48" value="获取返程航班时间" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4720" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-50" target="LrkR_C3SJFAWT6VeDMVh-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-50" value="如果行程类型为往返，则第二段行程为回程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4720" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-52" value="获取所有行程起飞时间" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4889.63" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-55" target="LrkR_C3SJFAWT6VeDMVh-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-55" value="设置session信息，将查询结果放入session中" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4749" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-57" target="BteyizKaQL2jbsLEFC8R-60" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5200" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-57" value="查询结果转换&lt;div&gt;convertResponse&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4920" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-64" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5280" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-64" value="构建航班舱位集合" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5220" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-66" target="BteyizKaQL2jbsLEFC8R-76" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-66" value="构建航班集合&lt;div&gt;buildFlights&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5480" y="1165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-68" target="LrkR_C3SJFAWT6VeDMVh-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-68" value="构建航班信息&lt;div&gt;返回FlightDTO&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5480" y="1265" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-70" target="LrkR_C3SJFAWT6VeDMVh-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-70" value="构建航段信息&lt;span style=&quot;background-color: transparent;&quot;&gt;FlightSegmentDTO&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5480" y="1365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-72" target="LrkR_C3SJFAWT6VeDMVh-74" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-72" value="获取起飞地信息DepartureDTO和到达地信息ArravlDTO（时间格式化）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5630" y="1475" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-74" target="LrkR_C3SJFAWT6VeDMVh-75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-74" value="构建共享航班信息CodeShareDTO和经停信息集合StopDTO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5789" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-75" target="LrkR_C3SJFAWT6VeDMVh-76" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-75" value="获取是否支持国际预付费座位" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5960" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-76" target="LrkR_C3SJFAWT6VeDMVh-82" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-76" value="是否支持国际预付费行李isEmdSeat，国际预付费座位权限是否开启" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5960" y="1362.5" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-82" target="LrkR_C3SJFAWT6VeDMVh-84" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-82" value="是否能购买贵宾厅服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5789" y="1365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LrkR_C3SJFAWT6VeDMVh-84" target="LrkR_C3SJFAWT6VeDMVh-70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LrkR_C3SJFAWT6VeDMVh-84" value="计算跨日天数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5630" y="1365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-1" target="BteyizKaQL2jbsLEFC8R-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-1" value="构建FlightDTO" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="5810" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-3" target="BteyizKaQL2jbsLEFC8R-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-3" value="构建FlightSegmentDTO" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="5960" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-5" target="BteyizKaQL2jbsLEFC8R-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-5" value="构建DepartureDTO" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="6110" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-7" target="BteyizKaQL2jbsLEFC8R-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-7" value="构建ArrivalDTO" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="6270" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-9" target="BteyizKaQL2jbsLEFC8R-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-9" value="构建CodeShareDTO" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="6420" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-11" target="BteyizKaQL2jbsLEFC8R-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-11" value="构建CabinDTO" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="6580" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-13" target="BteyizKaQL2jbsLEFC8R-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-13" value="获取是否支持国际预付费座位" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="6750" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-15" target="BteyizKaQL2jbsLEFC8R-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-15" value="是否支持国际座位，国际预付费行李是否开启，两者同时满足则支持" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="6750" y="1655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-17" target="LrkR_C3SJFAWT6VeDMVh-75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-17" value="是否支持国际座位，国际预付费行李是否开启，两者同时满足则支持" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5960" y="1585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-19" target="BteyizKaQL2jbsLEFC8R-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-19" value="获取是否支持国际预付费行李" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="6960" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-21" target="BteyizKaQL2jbsLEFC8R-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-21" value="获取是否支持国际EMD行李" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="6960" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7025" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-22" value="获取国内/国际行李服务名称和渠道名称" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="6965" y="1105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-26" target="BteyizKaQL2jbsLEFC8R-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7155" y="1250" />
+              <mxPoint x="7155" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-29" value="为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BteyizKaQL2jbsLEFC8R-28" vertex="1" connectable="0">
+          <mxGeometry x="-0.2222" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7025" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-32" value="不为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BteyizKaQL2jbsLEFC8R-31" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-26" value="获取增值服务&lt;span style=&quot;background-color: transparent;&quot;&gt;配&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;置信息并转化为JSON列表&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="6955" y="1210" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BteyizKaQL2jbsLEFC8R-27" target="BteyizKaQL2jbsLEFC8R-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-27" value="某增值服务某渠道服务状态未启用" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="7215" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BteyizKaQL2jbsLEFC8R-35" target="BteyizKaQL2jbsLEFC8R-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7195" y="1380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="7155" y="1380" />
+              <mxPoint x="7155" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-39" value="为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BteyizKaQL2jbsLEFC8R-38" vertex="1" connectable="0">
+          <mxGeometry x="-0.0877" y="1" relative="1" as="geometry">
+            <mxPoint y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-35" target="BteyizKaQL2jbsLEFC8R-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-42" value="不为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BteyizKaQL2jbsLEFC8R-41" vertex="1" connectable="0">
+          <mxGeometry x="-0.3667" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-35" value="筛选服务相同的第一条元素为additionEntityOptional" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="6950" y="1340" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-40" target="BteyizKaQL2jbsLEFC8R-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-40" value="获取渠道以分号分隔" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="6965" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-43" target="BteyizKaQL2jbsLEFC8R-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-43" value="取渠道相同以冒号分隔的第一条元素" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="7120" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-45" target="BteyizKaQL2jbsLEFC8R-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-45" value="取以逗号分隔的销售类型，再以冒号分隔的第二条元素" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="7120" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-47" target="BteyizKaQL2jbsLEFC8R-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-47" value="返回值有效且不为空的状态为启用" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="6960" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-52" target="LrkR_C3SJFAWT6VeDMVh-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-52" value="是否能购买贵宾厅服务" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="7130" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-55" target="LrkR_C3SJFAWT6VeDMVh-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-55" value="计算跨日天数并封装&lt;div&gt;DateUtils.getCrossDay&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="7640" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-60" target="BteyizKaQL2jbsLEFC8R-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-63" value="构建不成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BteyizKaQL2jbsLEFC8R-62" vertex="1" connectable="0">
+          <mxGeometry x="-0.0745" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-60" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5440" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-66" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BteyizKaQL2jbsLEFC8R-65" vertex="1" connectable="0">
+          <mxGeometry x="-0.2655" relative="1" as="geometry">
+            <mxPoint x="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-60" value="构建航班舱位组合集合FlightCombinationDTO" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5210" y="920" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-61" value="抛出异常" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5220" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="BteyizKaQL2jbsLEFC8R-67" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5560" y="960" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-69" value="若始发地豁免&lt;div&gt;离境税信息为空&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BteyizKaQL2jbsLEFC8R-68" vertex="1" connectable="0">
+          <mxGeometry x="-0.0625" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-67" value="返回null" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5680" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-70" target="BteyizKaQL2jbsLEFC8R-71" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-73" value="不为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BteyizKaQL2jbsLEFC8R-72" vertex="1" connectable="0">
+          <mxGeometry x="-0.3333" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-70" value="设置豁免离境税信息" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5440" y="920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-71" value="构建豁免离境税&lt;div&gt;ExemptTaxDTO并返回&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5440" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-76" target="BteyizKaQL2jbsLEFC8R-84" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-76" value="计算代理费&lt;div&gt;相乘&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5220" y="1335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-80" target="LrkR_C3SJFAWT6VeDMVh-64" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-80" value="构建舱位组合信息&lt;div&gt;返回CabinCombinationDTO&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5220" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-82" target="BteyizKaQL2jbsLEFC8R-76" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-82" value="如果货币为空，则默认为CNY&lt;div&gt;formatAgentFeeByRule&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5050" y="1335" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BteyizKaQL2jbsLEFC8R-84" target="BteyizKaQL2jbsLEFC8R-80" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BteyizKaQL2jbsLEFC8R-84" value="构建税信息集合，返回TaxDTO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5220" y="1235" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
